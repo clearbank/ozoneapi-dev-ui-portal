@@ -1,8 +1,8 @@
 # README #
 
-This repository contains the content for the Marco Polo Bank openbanking developer portal. This portal
+This repository contains the content for the ClearBank openbanking developer portal. This portal
 will primarily used by third party developers (TPP developers) to consume the openbanking APIs
-exposed by ozone  (for Marco Polo Bank).
+exposed by ozone  (for ClearBank).
 
 This repository can be used to tailor the content presented to the third party developers including
 branding.

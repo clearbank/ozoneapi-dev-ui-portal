@@ -20,11 +20,11 @@ Replace:  Full Bank Name Limited
 
 ## Open Banking
 
-The Marco Polo Bank Open Banking API is based on the Open Banking Standard which allows regulated Third Party Providers (TPPs) to access Account Information Services (AIS), Payment Initiation Services (PIS) and funds confirmation requests for member accounts. Access to these services on behalf of members is controlled by strong customer authentication within Marco Polo Bank apps as part of OpenID Connect authorisation flows.
+The ClearBank Open Banking API is based on the Open Banking Standard which allows regulated Third Party Providers (TPPs) to access Account Information Services (AIS), Payment Initiation Services (PIS) and funds confirmation requests for member accounts. Access to these services on behalf of members is controlled by strong customer authentication within ClearBank apps as part of OpenID Connect authorisation flows.
 
 We currently support app->app and mobile-web->app authentication flows.
 
-Marco Polo Bank is an FCA registered Account Servicing Payment Service Provider (ASPSP) who provides access to these services via the Open Banking standard.
+ClearBank is an FCA registered Account Servicing Payment Service Provider (ASPSP) who provides access to these services via the Open Banking standard.
 
 You can find out more about Open Banking here: [What is Open Banking](https://www.openbanking.org.uk/customers/what-is-open-banking/)
 

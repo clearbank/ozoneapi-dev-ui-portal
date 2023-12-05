@@ -15,7 +15,7 @@ We provide a regulatory sandbox that fully reflects our production APIs.
 ### Step by Step guide to connect to sandbox
 
 #### Step 1: Pre-Requisites for TPP
-Ensure that the following pre-requisites are met before onboarding onto Marco Polo Bank.
+Ensure that the following pre-requisites are met before onboarding onto ClearBank.
 The TPP has registered on the Directory Sandbox - https://directory.openbanking.org.uk/s/login/
 The TPP has at least one software statement created on the Directory Sandbox environment
 The TPP has at least one transport certificate created for each of its software statements.
@@ -122,7 +122,7 @@ You should now have successfully onboarded your TPP with the ASPSP and received 
 
 2.3 Environment File download
 
-Once a TPP successfully registers to Marco Polo Bank, they can download the environment file for their client via an Marco Polo Bank helper api
+Once a TPP successfully registers to ClearBank, they can download the environment file for their client via an ClearBank helper api
 
 ```
 Endpoint: https://ob-api1.sandbox.gb-ob.zing.me/ozone/v1.0/postman/environment
@@ -185,7 +185,7 @@ Select accounts
 
 ![](/assets/images/consent3.png)
 
-Once the PSU consent is successful, Marco Polo Bank will redirect back to the redirect URI. Copy the Authcode from the URL
+Once the PSU consent is successful, ClearBank will redirect back to the redirect URI. Copy the Authcode from the URL
 
 ![](/assets/images/consent4.png)
 
