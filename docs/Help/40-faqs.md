@@ -4,7 +4,7 @@
 
 ### What is Open Banking?
 
-Open Banking is a reform, called for by the Competitions & Market Authority (CMA), which mandates Marco Polo Bank and the eight other largest current account providers (CMA9) to securely share customer account data and initiate payments with registered third party providers (TPPs) provided the customer has given their consent.
+Open Banking is a reform, called for by the Competitions & Market Authority (CMA), which mandates ClearBank and the eight other largest current account providers (CMA9) to securely share customer account data and initiate payments with registered third party providers (TPPs) provided the customer has given their consent.
 
 Please find more information at [Open Banking](https://www.openbanking.org.uk/)
 
@@ -42,13 +42,13 @@ Card Based Payment Instrument Issuer (CBPII)
 ## Read/Write APIs
 
 
-### How can I access Marco Polo Bank Read/Write APIs?
+### How can I access ClearBank Read/Write APIs?
 As a TPP, in order to access our Read/Write APIs, you need to be enrolled with Open Banking (Enrolling Onto Open Banking Guide) and registered with the Financial Conduct Authority (FCA) or a National Competent Authority (NCA), as either an AISP and/or PISP, TSP or CBPII.
 
-This will then enable you to access our APIs through the Marco Polo Bank Developer Portal
+This will then enable you to access our APIs through the ClearBank Developer Portal
 
 ### As a Third Party Provider, is there somewhere I can test prototype Open Banking Solutions?
- Yes, Marco Polo Bank has a test facility [../40-sandbox.md](Sandbox) available through our Developer Portal. This will be made available in March 2019.
+ Yes, ClearBank has a test facility [../40-sandbox.md](Sandbox) available through our Developer Portal. This will be made available in March 2019.
 
 Check out our [../20-getting-started.md](Get Started) guide for a step by step guide on how to start testing with our Sandbox APIs.
 
@@ -59,7 +59,7 @@ There are full specifications provided by OBIE available on their [https://openb
 ## Response Codes
 
 ### I am getting a 401 unauthorized response when invoking /token endpoints
-(1) Make sure you have registered your SSA in Marco Polo Bank Developer Portal and the subscription of the Accounts Service Provider API and/or Payments Service Provider API is approved by Marco Polo Bank
+(1) Make sure you have registered your SSA in ClearBank Developer Portal and the subscription of the Accounts Service Provider API and/or Payments Service Provider API is approved by ClearBank
 
 (2) Make sure you are following client_secret_post for the OIDC calls
 

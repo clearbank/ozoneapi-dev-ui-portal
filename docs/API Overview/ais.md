@@ -9,20 +9,20 @@ The base URL for all AIS APIs is: `https://rs1.api.gb-ob.zing.me/open-banking/v3
 ## Accounts
 [Accounts API](/perry/developer/documentation?resource=dev-ui-portal&document=swagger/account-info-openapi.yaml#operations-tag-Accounts)
 
-Marco Polo Bank members will have one or more of the following accounts:
-- Marco Polo Bank Personal Account
-- Marco Polo Bank Personal Savings Pot
-- Marco Polo Bank Joint Account
-- Marco Polo Bank Joint Savings Pot
-- Marco Polo Bank Business Current Account
-- Marco Polo Bank Business Savings Pot
+ClearBank members will have one or more of the following accounts:
+- ClearBank Personal Account
+- ClearBank Personal Savings Pot
+- ClearBank Joint Account
+- ClearBank Joint Savings Pot
+- ClearBank Business Current Account
+- ClearBank Business Savings Pot
 
 ## Balances
 [Balances API](/perry/developer/documentation?resource=dev-ui-portal&document=swagger/account-info-openapi.yaml#operations-tag-Balances)
 
 Balances shown in this endpoint provide the `InterimAvailable` value.
 
-`InterimAvailable` balance is the value displayed most widely to our members within the Marco Polo Bank apps.
+`InterimAvailable` balance is the value displayed most widely to our members within the ClearBank apps.
 -
 -## Transactions
 -[Transactions API](/perry/developer/documentation?resource=dev-ui-portal&document=swagger/account-info-openapi.yaml#operations-tag-Transactions)
