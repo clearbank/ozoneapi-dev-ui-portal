@@ -2,7 +2,7 @@
 
 This repository contains the content for the ClearBank openbanking developer portal. This portal
 will primarily used by third party developers (TPP developers) to consume the openbanking APIs
-exposed by ozone  (for ClearBank).
+exposed by ozone (for ClearBank).
 
 This repository can be used to tailor the content presented to the third party developers including
 branding.
