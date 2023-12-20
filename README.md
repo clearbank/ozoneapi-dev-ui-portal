@@ -1,8 +1,8 @@
 # README #
 
-This repository contains the content for the ClearBank openbanking developer portal. This portal
+This repository contains the content for the Clear.Bank openbanking developer portal. This portal
 will primarily used by third party developers (TPP developers) to consume the openbanking APIs
-exposed by ozone (for ClearBank).
+exposed by ozone  (for Clear.Bank).
 
 This repository can be used to tailor the content presented to the third party developers including
 branding.
@@ -17,7 +17,7 @@ If the API spec is changed, it is expected to update the swagger definitions che
 Content placeholders
 The following placeholders can be used for find/replace opperations:
 
-Find:     {prod_contact_us_email}
+Find:     contact@clear.bank
 Replace:  contact@prod-email-domain.com
 
 Find:     {prod_domain_name}
@@ -26,10 +26,10 @@ Replace:  prod-domain.com
 Find:     {sandbox_domain_name}
 Replace:  sandbox-domain.com
 
-Find:     {bank_name}
+Find:     Clear.Bank
 Replace:  Full Bank Name Limited
 
-Find:     resource=dev-ui-portal
+Find:     resource=ukhub-clrb-portal
 Replace   branch-name
 
 ```
