@@ -15,12 +15,12 @@ We provide a regulatory sandbox that fully reflects our production APIs.
 ### Step by Step guide to connect to sandbox
 
 #### Step 1: Pre-Requisites for TPP
-Ensure that the following pre-requisites are met before onboarding onto Clear Bank .
-The TPP has registered on the Directory Sandbox - https://directory.openbanking.org.uk/s/login/
-The TPP has at least one software statement created on the Directory Sandbox environment
-The TPP has at least one transport certificate created for each of its software statements.
-The TPP has at least one redirect URI for each of its software statements.
-The TPP has a copy of the OB root and issuing certificate attached.
+Ensure that the following pre-requisites are met before onboarding onto ClearBank.
+- The TPP has registered on the Directory Sandbox - https://directory.openbanking.org.uk/s/login/
+- The TPP has at least one software statement created on the Directory Sandbox environment
+- The TPP has at least one transport certificate created for each of its software statements.
+- The TPP has at least one redirect URI for each of its software statements.
+- The TPP has a copy of the OB root and issuing certificate attached.
 
 #### Step 2: TPP should contact our Open Banking support team
 We do not offer Dynamic Client Registration.
@@ -29,7 +29,8 @@ Please contact our Open Banking support team to be onboarded.
 
 #### Step 2: Register TPP with Bank using Dynamic Client Registration
 See http://openid.net/specs/openid-connect-registration-1_0-21.html
-Claims required in dynamic client registration for Banks are as follows
+
+Please find here a list of cClaims required in dynamic client registration for Banks:
 
 | Field Names | Example Values | Description |
 |-------------|----------------|-------------|
@@ -122,7 +123,7 @@ You should now have successfully onboarded your TPP with the ASPSP and received 
 
 2.3 Environment File download
 
-Once a TPP successfully registers to Clear Bank , they can download the environment file for their client via an Clear Bank  helper api
+Once a TPP successfully registers to ClearBank , they can download the environment file for their client via an ClearBank  helper api
 
 ```
 Endpoint: https://ob-api1.sandbox.clrb.uk-hub-prod.ozoneapi.co.uk/ozone/v1.0/postman/environment
@@ -185,7 +186,7 @@ Select accounts
 
 ![](/assets/images/consent3.png)
 
-Once the PSU consent is successful, Clear Bank  will redirect back to the redirect URI. Copy the Authcode from the URL
+Once the PSU consent is successful, ClearBank  will redirect back to the redirect URI. Copy the Authcode from the URL
 
 ![](/assets/images/consent4.png)
 
