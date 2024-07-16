@@ -17,7 +17,7 @@ ClearBank's Open Banking API powered by Ozone **does not** support:
 - Domestic Standing Orders
 
 ## Overview
-The following fiels are mandatory fields for all domestic payment consents:
+The following fields are mandatory for all domestic payment consents:
 
 ### `InstructedAmount/Amount`
 The ClearBank Open Banking API mandates no maximum amount in `InstructedAmount/Amount`. It is possible that a `domestic-payment-consents` is authorised, but the payment initiation fails due to account limits.
@@ -41,7 +41,7 @@ The ClearBank Open Banking API mandates no maximum amount in `InstructedAmount/A
 The PISP may also opt to populate reference field on behalf of the PSU.
 
 ### `CreditorAccount`
-Domestic-payment-consents will only be authorised if the `CreditorAccount` details are sent or received. If a consent contains recipient info that does not meet this criteria then error will be returned to the front end, the consent will remain in status `AwaitingAuthorisation` and the PSU will not be redirected.
+Domestic-payment-consents will only be authorised if the `CreditorAccount` details are sent or received. If a consent contains recipient info that does not meet this criteria then an error will be returned to the front end, the consent will remain in status `AwaitingAuthorisation` and the PSU will not be redirected.
 
 ### `Account.SchemeName`
 The only supported `Account.SchemeName` is `UK.OBIE.SortCodeAccountNumber` for both `DebtorAccount` and `CreditorAccount`. Any other enum provided will return error.
