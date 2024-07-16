@@ -29,10 +29,11 @@ ClearBank’s Open Banking services powered by Ozone follows the Open Banking sp
 
 We recommend that you start off by accessing our [Sandbox](./docs/40-sandbox.md).
 
-Our ClearBank’s Sandbox powered by ozone fully reflects our the production environment and provides an easy route to testing out your proposition.
+Our ClearBank Sandbox powered by Ozone fully reflects the production environment and provides an easy route to testing out your proposition.
 
 To access the production environment, you must be a TPP authorised by the FCA or passported into the UK. Instructions for accessing our Production APIs are [here](./docs/30-production.md).
 
 See our [Getting Started](./docs/20-getting-started.md) page for instructions on accessing our sandbox and production APIs
 
-If you require test accounts please contact mailto:contact@clear.bank
+If you require test accounts please contact customercare@clear.bank
+ 
