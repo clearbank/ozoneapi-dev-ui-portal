@@ -28,19 +28,12 @@ Ths read/write API allow a Card Based Payment Instrument Issuer ('CBPII') to mak
 ### What are the roles a TPP can perform?
 
 A TPP, Third Party Provider, can perform the following roles once they are registered with their National Competent Authority (NCA):
-
-Account Information Service Provider (AISP)
-
-Payment Initiation Service Provider (PISP)
-
-Technical Service Provider (TSP)
-
-Card Based Payment Instrument Issuer (CBPII)
-
-
+- Account Information Service Provider (AISP)
+- Payment Initiation Service Provider (PISP)
+- Technical Service Provider (TSP)
+- Card Based Payment Instrument Issuer (CBPII)
 
 ## Read/Write APIs
-
 
 ### How can I access Clear Bank  Read/Write APIs?
 As a TPP, in order to access our Read/Write APIs, you need to be enrolled with Open Banking (Enrolling Onto Open Banking Guide) and registered with the Financial Conduct Authority (FCA) or a National Competent Authority (NCA), as either an AISP and/or PISP, TSP or CBPII.
