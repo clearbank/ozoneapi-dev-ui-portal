@@ -12,14 +12,26 @@ Access to these services on behalf of members is controlled by strong customer a
 
 You can find out more about Open Banking here: [What is Open Banking](https://www.openbanking.org.uk/what-is-open-banking/).
 
-## Contents
+## Contents (UK)
 
-- [Introduction](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/10-index.md)
-- [Getting Started](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/20-getting-started.md)
-- [Production Environment](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/30-production.md)
-- [Sandbox Environment](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/40-sandbox.md)
-- [Planned Updates](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/50-planned-updates.md)
-- [AISP API Overview](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/API%20Overview/ais.md)
-- [PISP API Overview](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/API%20Overview/pis.md)
-- [Account and Transaction API Specification](/perry/developer/documentation?resource=ukhub-clrb-portal&document=swagger/account-info-openapi.yaml)
-- [Payment Initiation Services API Specification](/perry/developer/documentation?resource=ukhub-clrb-portal&document=swagger/payment-initiation-openapi.yaml)
+- [Introduction](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/uk/10-index.md)
+- [Getting Started](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/uk/20-getting-started.md)
+- [Production Environment](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/uk/30-production.md)
+- [Sandbox Environment](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/uk/40-sandbox.md)
+- [Planned Updates](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/uk/50-planned-updates.md)
+- [AISP API Overview](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/uk/API%20Overview/ais.md)
+- [PISP API Overview](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/uk/API%20Overview/pis.md)
+- [Account and Transaction API Specification](/perry/developer/documentation?resource=ukhub-clrb-portal&document=swagger/uk/account-info-openapi.yaml)
+- [Payment Initiation Services API Specification](/perry/developer/documentation?resource=ukhub-clrb-portal&document=swagger/uk/payment-initiation-openapi.yaml)
+
+## Contents (EU)
+
+- [Introduction](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/eu/10-index.md)
+- [Getting Started](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/eu/20-getting-started.md)
+- [Production Environment](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/eu/30-production.md)
+- [Sandbox Environment](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/eu/40-sandbox.md)
+- [Planned Updates](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/eu/50-planned-updates.md)
+- [AISP API Overview](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/eu/API%20Overview/ais.md)
+- [PISP API Overview](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/eu/API%20Overview/pis.md)
+- [Account and Transaction API Specification](/perry/developer/documentation?resource=ukhub-clrb-portal&document=swagger/eu/account-info-openapi.yaml)
+- [Payment Initiation Services API Specification](/perry/developer/documentation?resource=ukhub-clrb-portal&document=swagger/eu/payment-initiation-openapi.yaml)
