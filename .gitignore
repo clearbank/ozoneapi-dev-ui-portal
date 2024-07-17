@@ -48,3 +48,7 @@ Thumbs.db
 *.mov
 *.wmv
 
+/.vs/ozoneapi-dev-ui-portal/FileContentIndex
+/.vs/slnx.sqlite
+/.vs/ozoneapi-dev-ui-portal/v17/.wsuo
+*.json
