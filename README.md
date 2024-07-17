@@ -12,7 +12,7 @@ branding.
 This repository is pulled by Ozone and used to refresh the content being displayed on the developer portal.
 The developer portal is maintained by Ozone, this repository provides the content to be displayed on the portal.
 
-If the API specification is changed, it is expected to update the swagger definitions checked into this repository.
+If the API specification is changed, it is expected to update the Swagger definitions checked into this repository.
 
 ```
 Content placeholders
