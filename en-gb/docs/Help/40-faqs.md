@@ -4,7 +4,7 @@
 
 ### What is Open Banking?
 
-Open Banking is a reform, called for by the Competitions & Market Authority (CMA), which mandates ClearBank  and the eight other largest current account providers (CMA9) to securely share customer account data and initiate payments with registered third party providers (TPPs) provided the customer has given their consent.
+Open Banking is a reform, called for by the Competitions & Market Authority (CMA), which mandates ClearBank and the eight other largest current account providers (CMA9) to securely share customer account data and initiate payments with registered third party providers (TPPs) provided the customer has given their consent.
 
 Please find more information at [Open Banking](https://www.openbanking.org.uk/)
 
@@ -52,7 +52,7 @@ There are full specifications provided by OBIE available on their [https://openb
 ## Response Codes
 
 ### I am getting a 401 unauthorized response when invoking /token endpoints
-(1) Make sure you have registered your SSA in ClearBank  Developer Portal and the subscription of the Accounts Service Provider API and/or Payments Service Provider API is approved by ClearBank 
+(1) Make sure you have registered your SSA in ClearBank Developer Portal and the subscription of the Accounts Service Provider API and/or Payments Service Provider API is approved by ClearBank 
 
 (2) Make sure you are following client_secret_post for the OIDC calls
 
