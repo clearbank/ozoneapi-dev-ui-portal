@@ -123,7 +123,7 @@ You should now have successfully onboarded your TPP with the ASPSP and received 
 
 2.3 Environment File download
 
-Once a TPP successfully registers with ClearBank , they can download the environment file for their client via a supporting ClearBank API.
+Once a TPP successfully registers with ClearBank, they can download the environment file for their client via a supporting ClearBank API.
 
 ```
 Endpoint: https://ob-api1.sandbox.clrb.uk-hub-prod.ozoneapi.co.uk/ozone/v1.0/postman/environment
