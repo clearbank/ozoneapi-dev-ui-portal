@@ -34,7 +34,7 @@ Please find here a list of Claims required in dynamic client registration for Ba
 
 | Field Names | Example Values | Description |
 |-------------|----------------|-------------|
-| token_endpoint_auth_signing_alg | PS256 | Signature algorithm used JWK.
+| token_endpoint_auth_signing_alg |	PS256 | Signature algorithm used JWK.
 | grant_types | authorization_code, client_credentials |
 | subject_type | public | subject_type requested for responses to this client_id.
 | application_type | web | The issuer must be your software ID. This is important as it's used verify it matches the SSA software ID claim.
@@ -123,7 +123,7 @@ You should now have successfully onboarded your TPP with the ASPSP and received 
 
 2.3 Environment File download
 
-Once a TPP successfully registers with ClearBank, they can download the environment file for their client via a supporting ClearBank API.
+Once a TPP successfully registers with ClearBank , they can download the environment file for their client via a supporting ClearBank API.
 
 ```
 Endpoint: https://ob-api1.sandbox.clrb.uk-hub-prod.ozoneapi.co.uk/ozone/v1.0/postman/environment
