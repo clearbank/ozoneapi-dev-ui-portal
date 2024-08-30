@@ -41,7 +41,7 @@ As a TPP, in order to access our Read/Write APIs, you need to be enrolled with O
 This will then enable you to access our APIs through the Clear Bank  Developer Portal
 
 ### As a Third Party Provider, is there somewhere I can test prototype Open Banking Solutions?
- Yes, ClearBank  has a test facility [../40-sandbox.md](Sandbox) available through our Developer Portal. This will be made available in March 2019.
+ Yes, Clear Bank  has a test facility [../40-sandbox.md](Sandbox) available through our Developer Portal. This will be made available in March 2019.
 
 Check out our [../20-getting-started.md](Get Started) guide for a step by step guide on how to start testing with our Sandbox APIs.
 

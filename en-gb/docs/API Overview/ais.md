@@ -20,7 +20,7 @@ ClearBank  members will have one or more of the following accounts:
 ## Balance
 The [Balances API](/perry/developer/documentation?resource=ukhub-clrb-portal&document=swagger/account-info-openapi.yaml#operations-tag-Balances) endpoint shows the account balance value. 
 
-`InterimAvailable` balance is the value displayed most widely to our members within the ClearBank apps.
+`InterimAvailable` balance is the value displayed most widely to our members within the ClearBank  apps.
 
 ## Transactions
 The [Transactions API](/perry/developer/documentation?resource=ukhub-clrb-portal&document=swagger/account-info-openapi.yaml#/operations-tag-Transactions) endpoint shows the list of transactions processed by the account. 
