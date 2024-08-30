@@ -1,7 +1,7 @@
 # Introduction
 
 ```
-Find:     contact@clear.bank
+Find:     contact@clear.bank -- EU
 Replace:  contact@prod-email-domain.com
 
 Find:     {prod_domain_name}
@@ -17,7 +17,7 @@ Replace:  Full Bank Name Limited
 
 ## ClearBank API Documentation
 
-ClearBank’s Open Banking services powered by Ozone follows the Open Banking specifications found here: 
+ClearBank’s Open Banking services powered by Ozone follows the Open Banking specifications found here:
 
 - [Dynamic Client Registration (DCR) Specification](https://openbankinguk.github.io/dcr-docs-pub/v3.2/dynamic-client-registration.html): Use this specification to register your TPP client to use our APIs
 - [Open ID Foundation's Financial Grade API (FAPI) Profile](https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_001.md): This specification enables user authentication of consents for open banking
@@ -36,4 +36,4 @@ To access the production environment, you must be a TPP authorised by the FCA or
 See our [Getting Started](./docs/20-getting-started.md) page for instructions on accessing our sandbox and production APIs
 
 If you require test accounts please contact customercare@clear.bank
- 
+

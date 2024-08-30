@@ -48,4 +48,6 @@ Thumbs.db
 *.mov
 *.wmv
 
-/.vs/ozoneapi-dev-ui-portal/FileContentIndex
+*.vsidx
+/.vs/slnx.sqlite
+/.vs/slnx.sqlite

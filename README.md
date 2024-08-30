@@ -17,7 +17,7 @@ If the API spec is changed, it is expected to update the swagger definitions che
 Content placeholders
 The following placeholders can be used for find/replace opperations:
 
-Find:     contact@clear.bank 
+Find:     contact@clear.bank
 Replace:  contact@prod-email-domain.com
 
 Find:     {prod_domain_name}
