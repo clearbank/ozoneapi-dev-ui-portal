@@ -1,4 +1,9 @@
-# Overview
+---
+title: Introduction
+section: Introduction
+description: Welcome to developer portal
+---
+
 ### Glossary
 
 ### Account Information
@@ -15,15 +20,9 @@ The ASPSPs (Account Servicing Payment Service Providers) are the account provide
 
 The customer must give specific permission to the entity that wants to access their account information and initiate payments on their behalf.
 
-
-There are two types of ASPSP:
-
-
 Mandatory: in the UK, these are the initial nine banks that are taking part in Open Banking.
-Voluntary: these are institutions that have chosen to take part in Open Banking.
 
-### CBPII
-A card-based payment instrument issuer is a third-party card provider that enables a customer to make payments from a bank account held with an Open Banking account provider (an ASPSP).
+Voluntary: these are institutions that have chosen to take part in Open Banking.
 
 ### CMA
 The Competition and Markets Authority is the UK regulator responsible for the roll-out of Open Banking, which is the UK’s implementation of the European Union’s PSD2 regulation.

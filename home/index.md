@@ -2,13 +2,15 @@
 
 ## Open Banking
 
-The Clear Bank Open Banking API is based on the Open Banking Standard which allows regulated Third Party Providers (TPPs) to access Account Information Services (AIS), Payment Initiation Services (PIS) and funds confirmation requests for member accounts.
+ClearBank is a FCA registered Account Servicing Payment Service Provider (ASPSP) providing access to open banking services based on the Open Banking standard. 
 
-This Ozone Sandbox has been created by [Ozone](https://ozoneapi.com) to enable developers to build and test open banking enabled applications which require access to Variable Recurring Payments (VRPse).
+The ClearBank Open Banking API powered by Ozone is based on the Open Banking Standard which allows regulated Third Party Providers (TPPs) to access Account Information Services (AIS), Payment Initiation Services (PIS) and funds confirmation requests for eligible member accounts.
 
-Access to these services on behalf of members is controlled by strong customer authentication within Clear Bank apps as part of OpenID Connect authorisation flows.
+This Ozone Sandbox has been created by [Ozone](https://ozoneapi.com) to enable developers to build and test open banking enabled applications.
 
-We are a registered Account Servicing Payment Service Provider (ASPSP) who provide access to these services based on the Open Banking standard.
+Access to these services on behalf of members is controlled by strong customer authentication within ClearBankClearBankClearBank apps as part of OpenID Connect authorisation flows. ClearBank currently supports web authentication flows.
+
+You can find out more about Open Banking here: [What is Open Banking](https://www.openbanking.org.uk/what-is-open-banking/).
 
 ## Contents
 
@@ -18,6 +20,6 @@ We are a registered Account Servicing Payment Service Provider (ASPSP) who provi
 - [Sandbox Environment](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/40-sandbox.md)
 - [Planned Updates](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/50-planned-updates.md)
 - [AISP API Overview](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/API%20Overview/ais.md)
+- [PISP API Overview](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/API%20Overview/pis.md)
 - [Account and Transaction API Specification](/perry/developer/documentation?resource=ukhub-clrb-portal&document=swagger/account-info-openapi.yaml)
 - [Payment Initiation Services API Specification](/perry/developer/documentation?resource=ukhub-clrb-portal&document=swagger/payment-initiation-openapi.yaml)
-- [Card Based Payment Instrument Issuer API Specification](/perry/developer/documentation?resource=ukhub-clrb-portal&document=swagger/confirmation-funds-openapi.yaml)
