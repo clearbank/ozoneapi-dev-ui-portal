@@ -1,33 +1,28 @@
 # Sandbox
 
-Our API Sandbox contains a full simulation of our APIs but without connecting to any real customer accounts. Any developer can access this Sandbox using their own self signed certificates.
+Our API Sandbox contains a full simulation of our APIs but without connecting to any real customer accounts. Any developer can access this Sandbox using their own self-signed certificates.
 
 ## Try our API in the Sandbox
 
 We provide a regulatory sandbox that fully reflects our production APIs.
 
 ### Regulatory Sandbox
-
+Our Sandbox includes:
 - Authorisation Server 1: Provides both strict and permissive client profiles in headless and non headless options.
-- OIDC Well Known endpoint: https://auth1.sandbox.clrb.uk-hub-prod.ozoneapi.co.uk/.well-known/openid-configuration
-- baseUrl: https://auth1.sandbox.clrb.uk-hub-prod.ozoneapi.co.uk/
+- OIDC Well Known Endpoint: https://auth1.sandbox.clrb.uk-hub-prod.ozoneapi.co.uk/.well-known/openid-configuration
+- BaseUrl: https://auth1.sandbox.clrb.uk-hub-prod.ozoneapi.co.uk/
 
 ### Step by Step guide to connect to sandbox
 
-#### Step 1: Pre-Requisites for TPP
+#### *Step 1*: Pre-Requisites for TPP
 Ensure that the following pre-requisites are met before onboarding with ClearBank.
 - The TPP has registered on the Directory Sandbox - https://directory.openbanking.org.uk/s/login/
 - The TPP has at least one software statement created on the Directory Sandbox environment
-- The TPP has at least one transport certificate created for each of its software statements.
-- The TPP has at least one redirect URI for each of its software statements.
-- The TPP has a copy of the OB root and issuing certificate attached.
+- The TPP has at least one transport certificate created for each of its software statements
+- The TPP has at least one redirect URI for each of its software statements
+- The TPP has a copy of the OB root and issuing certificate attached
 
-#### Step 2: TPP should contact our Open Banking support team
-We do not offer Dynamic Client Registration.
-
-Please contact our Open Banking support team to be onboarded, customercare@clear.bank
-
-#### Step 3: Register TPP with ClearBank using Dynamic Client Registration
+#### *Step 2*: Register TPP with ClearBank using Dynamic Client Registration
 See http://openid.net/specs/openid-connect-registration-1_0-21.html
 
 Please find here a list of Claims required in dynamic client registration for Banks:
@@ -134,7 +129,7 @@ The token is the base64 encoded string of clientId:clientsecret
 
 On successful response the TPP can then save the environment file on to their local system.
 
-#### Step 3: Import Environment Files and Collections To Postman
+#### *Step 3*: Import Environment Files and Collections To Postman
 3.1. Import Environment Files and Collections into Postman
 ![postmanimage](/assets/images/postmanimport1.png)
 
@@ -153,7 +148,7 @@ The CRT should be set to the transport certificate downloaded from the open bank
 3.4) SSL Certificate Verification (TPP)
 In Postman settings ensure SSL Certificate Verification is set to off.
 
-#### Step 4: Account Information Flow
+#### *Step 4*: Account Information Flow
 
 4.1) Client Credentials Grant
 
@@ -194,7 +189,7 @@ Once the PSU consent is successful, ClearBank will redirect back to the redirect
 
 ![](/assets/images/accesstoken.png)
 
-#### Step 5: Retrieve Account and Transaction Data
+#### *Step 5*: Retrieve Account and Transaction Data
 Retrieve Account Data
 
 ![](/assets/images/accounts.jpeg)
