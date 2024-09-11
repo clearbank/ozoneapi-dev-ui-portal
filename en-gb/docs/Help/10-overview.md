@@ -36,12 +36,6 @@ The Open Banking Directory is the canonical list of providers who are authorised
 Directory Sandbox
 The Open Banking Directory Sandbox provides a test instance of the real directory so that providers can test their implementations before going live. You’ll need to registered with the Open Banking Directory Sandbox in order to use the Clear Bank  API sandbox.
 
-### EBA
-The European Banking Authority sets the technical standards for Open Banking.
-
-### EBA RTS
-The technical standards set for Open Banking (and PSD2 in general) by the European Banking Authority are called the Regulatory Technical Standards.
-
 ### FCA
 The Financial Conduct Authority is the UK regulatory responsible for authorising participants in Open Banking. It is the UK’s Competent Authority.
 
@@ -51,7 +45,7 @@ FCA Service Metrics is an Open Banking API, offered by {bank name} and other Ope
 ### KYC
 Regulations designed to prevent money laundering require that financial institutions can prove the identity of their customers. Know Your Customer is the process of verifying the customer’s identity and evaluating potential risk for illegal activity.
 
-### OBIE
+### OBL
 Open Banking Limited is the Open Banking Implementation Entity and it has been tasked with overseeing the delivery of Open Banking in the UK.
 
 ### Open Banking
