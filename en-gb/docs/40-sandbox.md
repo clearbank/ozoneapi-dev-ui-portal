@@ -129,6 +129,7 @@ The token is the base64 encoded string of clientId:clientsecret
 
 On successful response the TPP can then save the environment file on to their local system.
 
+
 #### *Step 3*: Import Environment Files and Collections To Postman
 3.1. Import Environment Files and Collections into Postman
 ![postmanimage](/assets/images/postmanimport1.png)
@@ -147,6 +148,7 @@ The CRT should be set to the transport certificate downloaded from the open bank
 
 3.4) SSL Certificate Verification (TPP)
 In Postman settings ensure SSL Certificate Verification is set to off.
+
 
 #### *Step 4*: Account Information Flow
 
