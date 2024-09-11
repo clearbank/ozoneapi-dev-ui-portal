@@ -2,7 +2,7 @@
 
 Below are the paths of our well-known endpoints for the production environment.
 
-Our production authorisation server uses the strict profile defined above and testable in the Sandbox.
+Our production authorisation server uses the strict profile defined below and testable in the Sandbox.
 
 ## Authorisation Server URLs
 - OIDC Well Known endpoint: https://auth1.{prod_domain_name}/.well-known/openid-configuration
@@ -17,4 +17,4 @@ Our production authorisation server uses the strict profile defined above and te
 - Confirmation of Funds API: https://rs1.{prod_domain_name}/open-banking/v3.1/cbpii/**
 
 ## Test accounts
-If you require test accounts please contact mailto:contact@clear.bank
+If you require test accounts please contact customercare@clear.bank.
