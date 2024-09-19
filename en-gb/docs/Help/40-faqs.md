@@ -20,11 +20,6 @@ These read/write APIs provide the ability for approved/authorised account inform
 
 These read/write APIs provide the ability for authorised payment initiation service providers (PISPs) to initiate domestic payments, setup new domestic scheduled payments & domestic standing orders, only when the PSU grants consent. This API is developed according to the Open Banking Read/Write API Specifications, see [https://www.openbanking.org.uk/](https://www.openbanking.org.uk/)
 
-#### Confirmation of Funds
-
-Ths read/write API allow a Card Based Payment Instrument Issuer ('CBPII') to make a request to confirm funds are available. This API is developed according to the Open Banking Read/Write API Specifications, see [https://www.openbanking.org.uk/](https://www.openbanking.org.uk/)
-
-
 ### What are the roles a TPP can perform?
 
 A TPP, Third Party Provider, can perform the following roles once they are registered with their National Competent Authority (NCA):
