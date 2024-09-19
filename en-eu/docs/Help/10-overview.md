@@ -24,9 +24,6 @@ Mandatory: in the UK, these are the initial nine banks that are taking part in O
 
 Voluntary: these are institutions that have chosen to take part in Open Banking.
 
-### CMA
-The Competition and Markets Authority is the UK regulator responsible for the roll-out of Open Banking, which is the UK’s implementation of the European Union’s PSD2 regulation.
-
 ### Competent Authority
 In Open Banking, a Competent Authority is a regulator who can authorise entities to be ASPSPs, AISPs, TPPs and so on. The UK Competent Authority is the FCA but it’s important to note that a provider could be authorised by a Competent Authority based in another EU state.
 
@@ -42,17 +39,8 @@ The European Banking Authority sets the technical standards for Open Banking.
 ### EBA RTS
 The technical standards set for Open Banking (and PSD2 in general) by the European Banking Authority are called the Regulatory Technical Standards.
 
-### FCA
-The Financial Conduct Authority is the UK regulatory responsible for authorising participants in Open Banking. It is the UK’s Competent Authority.
-
-### FCA Service Metrics
-FCA Service Metrics is an Open Banking API, offered by {bank name} and other Open Banking institutions, that provides bank account product information to make it easier for people to compare the offerings of different banks.
-
 ### KYC
 Regulations designed to prevent money laundering require that financial institutions can prove the identity of their customers. Know Your Customer is the process of verifying the customer’s identity and evaluating potential risk for illegal activity.
-
-### OBIE
-Open Banking Limited is the Open Banking Implementation Entity and it has been tasked with overseeing the delivery of Open Banking in the UK.
 
 ### Open Banking
 Open Banking is the consumer-friendly name for the UK’s implementation of the second edition of European Union’s Payment Services Directive. Open Banking oversees the regulatory and technical framework, based on the requirements of the directive, of PSD2 in the UK.
@@ -71,9 +59,6 @@ A Payment Initiation Services Provider is a service that uses Open Banking APIs 
 
 ### PSP
 A Payment Service Provider is any of the regulated Open Banking providers, including ASPSPs (such as {bank name}), PISPs, AISPs and CBPIIs.
-
-### PSR
-The Payment Service Regulations are the UK’s implementation of the second edition of the European Union’s Payment Service Directive (PSD2).
 
 ### PSU
 A Payment Services User is an individual or business using an Open Banking payment service.
