@@ -49,22 +49,10 @@ Domestic-payment-consents will only be authorised if the `CreditorAccount` detai
 The only supported `Account.SchemeName` is `UK.OBIE.SortCodeAccountNumber` for both `DebtorAccount` and `CreditorAccount`. Any other enum provided will return an error.
 
 ### `Structured Debtor Address`
-The full postal address of the account holder. For UK addresses, the order of this information must be: country, town, city, state/province/municipality, street name, building number and/or name, postal code. 
-
-**TownName** (string, REQUIRED)
-- Description: Name of a built-up area, with defined boundaries, and a local government.
+- Description: The full postal address of the account holder. For UK addresses, the order of this information must be: country, town, city, state/province/municipality, street name, building number and/or name, postal code. 
 - Minimum length: 1
-- Maximum length: 35
-
-**Country** (string, REQUIRED)
-- Description: Nation with its own government.
-- Pattern: [A-Z]{2,2}
-  
-**PostCode** (string, REQUIRED)
-- Desciption: Identifier consisting of a group of letters and/or numbers that is added to a postal address to assist the sorting of mail.
-- Minimum length: 1
-- Maximum length: 16
-
+- Maximum length: 140
+- Pattern: ^[a-z;A-Z,0-9,|/.|-?:().,'+_]*$
 
 ## Payment dates
 Payments can be made on all days including Saturdays, Sundays and Bank Holidays.
