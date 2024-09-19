@@ -57,9 +57,6 @@ Under Open Banking, the Mandatory ASPs, such as {bank name}, must provide certai
 ### Payment gateway
 A payment gateway is an intermediary between a merchant services provider –– that facilitates the processing of payment cards –– and ecommerce software.
 
-### PSD2
-The second edition of the European Union’s Payment Services Directive sets the framework for Open Banking and similar implementations across the EU.
-
 ### PISP
 A Payment Initiation Services Provider is a service that uses Open Banking APIs to make a payment from a person’s bank account held at another institution, at their request.
 
