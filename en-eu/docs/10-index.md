@@ -1,29 +1,13 @@
 # Introduction
 
-```
-Find:     contact@clear.bank -- EU
-Replace:  contact@prod-email-domain.com
-
-Find:     {prod_domain_name}
-Replace:  https://www.prod-domain.com
-
-Find:     {sandbox_domain_name}
-Replace:  https://www.sandbox-domain.com
-
-Find:     Clear.Bank
-Replace:  Full Bank Name Limited
-
-```
-
 ## ClearBank API Documentation
 
-ClearBank’s Open Banking services powered by Ozone follows the Open Banking specifications found here:
+ClearBank’s Open Banking services powered by Ozone follow the Open Banking specifications:
 
-- [Dynamic Client Registration (DCR) Specification](https://openbankinguk.github.io/dcr-docs-pub/v3.2/dynamic-client-registration.html): Use this specification to register your TPP client to use our APIs
+- [Dynamic Client Registration (DCR) Specification](https://openbankinguk.github.io/dcr-docs-pub/v3.2/dynamic-client-registration.html): This specification allows to register your TPP client to use our APIs.
 - [Open ID Foundation's Financial Grade API (FAPI) Profile](https://bitbucket.org/openid/fapi/src/master/Financial_API_WD_001.md): This specification enables user authentication of consents for open banking
-- Open Banking API Specification: Based on Open Banking Read/Write API Specification v3.1.2, this specification describes the resources that are available on our service:
-  - [Accounts & Transaction Information API](../swagger/account-info-openapi.yaml)
-  - [Payments Initiation Services API](../swagger/payment-initiation-openapi.yaml)
+- [Accounts & Transaction Information API](../swagger/account-info-openapi.yaml): This Open Banking API Specification is based on Open Banking Read/Write API Specification v3.1.2 and describes the resources made available to you by ClearBank for Account Information Services.
+- [Payments Initiation Services API](../swagger/payment-initiation-openapi.yaml): This Open Banking API Specification is based on Open Banking Read/Write API Specification v3.1.2 and describes the resources made available to you by ClearBank for Payment Initiation Services.
 
 ## Getting started
 
