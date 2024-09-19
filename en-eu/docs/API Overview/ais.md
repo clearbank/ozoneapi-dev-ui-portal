@@ -12,9 +12,6 @@ The base URL for all AIS APIs is: `https://rs1.{prod_domain_name}/open-banking/v
 ClearBank  members will have one or more of the following accounts:
 - Operating Account
 - Customer Segregated Account or Customer Designated Account
-- Client Money Account
-- Multi-Currency Account
-- Safeguarding Account
 
 ## Balance
 The [Balances API](/perry/developer/documentation?resource=ukhub-clrb-portal&document=swagger/account-info-openapi.yaml#operations-tag-Balances) endpoint shows the account balance value. 
