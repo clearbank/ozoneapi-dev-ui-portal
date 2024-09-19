@@ -2,7 +2,7 @@
 
 ## Open Banking
 
-ClearBank is a FCA registered Account Servicing Payment Service Provider (ASPSP) providing access to open banking services based on the Open Banking standard.
+ClearBank is an Account Servicing Payment Service Provider (ASPSP) registered at De Nederlandsche Bank providing access to open banking services based on the Open Banking standard.
 
 The ClearBank Open Banking API powered by Ozone is based on the Open Banking Standard which allows regulated Third Party Providers (TPPs) to access Account Information Services (AIS), Payment Initiation Services (PIS) and funds confirmation requests for eligible member accounts.
 
