@@ -20,18 +20,14 @@ The ASPSPs (Account Servicing Payment Service Providers) are the account provide
 
 The customer must give specific permission to the entity that wants to access their account information and initiate payments on their behalf.
 
-Mandatory: in the UK, these are the initial nine banks that are taking part in Open Banking.
-
-Voluntary: these are institutions that have chosen to take part in Open Banking.
-
 ### Competent Authority
-In Open Banking, a Competent Authority is a regulator who can authorise entities to be ASPSPs, AISPs, TPPs and so on. The UK Competent Authority is the FCA but it’s important to note that a provider could be authorised by a Competent Authority based in another EU state.
+In Open Banking, a Competent Authority is a regulator who can authorise entities to be ASPSPs, AISPs, TPPs and so on. The EU Competent Authority is the EBA but it’s important to note that a provider could be authorised by a Competent Authority based in another EU state.
 
 ### Directory
 The Open Banking Directory is the canonical list of providers who are authorised to take part in the Open Banking ecosystem. The directory handles authentication between registered providers.
 
 Directory Sandbox
-The Open Banking Directory Sandbox provides a test instance of the real directory so that providers can test their implementations before going live. You’ll need to registered with the Open Banking Directory Sandbox in order to use the Clear Bank  API sandbox.
+The Open Banking Directory Sandbox provides a test instance of the real directory so that providers can test their implementations before going live. You’ll need to registered with a competent EU authority Sandbox in order to use the ClearBank API sandbox.
 
 ### EBA
 The European Banking Authority sets the technical standards for Open Banking.
@@ -43,7 +39,7 @@ The technical standards set for Open Banking (and PSD2 in general) by the Europe
 Regulations designed to prevent money laundering require that financial institutions can prove the identity of their customers. Know Your Customer is the process of verifying the customer’s identity and evaluating potential risk for illegal activity.
 
 ### Open Banking
-Open Banking is the consumer-friendly name for the UK’s implementation of the second edition of European Union’s Payment Services Directive. Open Banking oversees the regulatory and technical framework, based on the requirements of the directive, of PSD2 in the UK.
+Open Banking is the consumer-friendly name for the EU’s implementation of the second edition of European Union’s Payment Services Directive. Open Banking oversees the regulatory and technical framework, based on the requirements of the directive, of PSD2.
 
 ### Open Data
 Under Open Banking, the Mandatory ASPs, such as {bank name}, must provide certain data through APIs that are available for anyone to access. These Open Data APIs include data such ATM and branch locations, as well as production details.
