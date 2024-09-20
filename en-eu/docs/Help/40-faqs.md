@@ -41,13 +41,12 @@ As a TPP, in order to access our Read/Write APIs, you need to be registered with
 This will then enable you to access our APIs through the ClearBank Developer Portal
 
 ### As a Third Party Provider, is there somewhere I can test prototype Open Banking Solutions?
- Yes, ClearBank  has a test facility [../40-sandbox.md](Sandbox) available through our Developer Portal. This will be made available in March 2019.
+Yes, ClearBank has a test facility, [Sandbox](https://developer.sandbox.clrb.uk-hub-prod.ozoneapi.co.uk/en-eu/docs/40-sandbox.md), available through our Developer Portal. This will be made available in March 2019.
 
-Check out our [../20-getting-started.md](Get Started) guide for a step by step guide on how to start testing with our Sandbox APIs.
-
+Check out our [Get Started](https://developer.sandbox.clrb.uk-hub-prod.ozoneapi.co.uk/en-eu/docs/20-getting-started.md) guide for a step by step guide on how to start testing with our Sandbox APIs.
 
 ### Where are the specifications you have used to build your current APIs?
-There are full specifications provided by OBIE available on their [https://openbanking.atlassian.net/wiki/spaces/DZ/overview](Developer Zone) from which we’ve built our APIs.
+There are full specifications provided by OBIE available on their [Developer Zone](https://openbanking.atlassian.net/wiki/spaces/DZ/overview) from which we’ve built our APIs.
 
 ## Response Codes
 
