@@ -14,15 +14,15 @@ Please find more information at [Open Banking](https://ec.europa.eu/commission/p
 These Open Data APIs allow API providers (e.g. banks, building societies and ATM providers) to develop API endpoints for products, branches and ATMs data which can then be accessed by anyone.
 
 #### Account & Transactions
-These read/write APIs provide the ability for approved/authorised account information service providers (AISPs) to access a customer’s (payment service user, PSU) account and transaction information for domestic business current accounts (BCAs) and personal current accounts (PCAs), only when the PSU grants consent. This API is developed according to the Open Banking Read/Write API Specifications, see [https://www.openbanking.org.uk/](https://www.openbanking.org.uk/)
+These read/write APIs provide the ability for approved/authorised account information service providers (AISPs) to access a customer’s (payment service user, PSU) account and transaction information for domestic business current accounts (BCAs) and personal current accounts (PCAs), only when the PSU grants consent. This API is developed according to the Open Banking Read/Write [API Specifications](https://www.eba.europa.eu/guidelines-authorisation-and-registration-under-psd2) from the EBA. 
 
 ### Payment Initiation
 
-These read/write APIs provide the ability for authorised payment initiation service providers (PISPs) to initiate domestic payments, setup new domestic scheduled payments & domestic standing orders, only when the PSU grants consent. This API is developed according to the Open Banking Read/Write API Specifications, see [https://www.openbanking.org.uk/](https://www.openbanking.org.uk/)
+These read/write APIs provide the ability for authorised payment initiation service providers (PISPs) to initiate domestic payments, setup new domestic scheduled payments & domestic standing orders, only when the PSU grants consent. This API is developed according to the Open Banking Read/Write [API Specifications](https://www.eba.europa.eu/guidelines-authorisation-and-registration-under-psd2) from the EBA. 
 
 #### Confirmation of Funds
 
-Ths read/write API allow a Card Based Payment Instrument Issuer ('CBPII') to make a request to confirm funds are available. This API is developed according to the Open Banking Read/Write API Specifications, see [https://www.openbanking.org.uk/](https://www.openbanking.org.uk/)
+Ths read/write API allow a Card Based Payment Instrument Issuer ('CBPII') to make a request to confirm funds are available. This API is developed according to the Open Banking Read/Write [API Specifications](https://www.eba.europa.eu/guidelines-authorisation-and-registration-under-psd2) from the EBA. 
 
 
 ### What are the roles a TPP can perform?
