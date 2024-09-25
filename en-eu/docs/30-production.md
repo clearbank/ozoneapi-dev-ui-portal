@@ -12,9 +12,7 @@ Our production authorisation server uses the strict profile defined above and te
 ## Resource Server URLs
 - Account Information Services API: https://rs1.{prod_domain_name}/open-banking/v3.1/aisp/**
 
-- Payment initiation services API: https://rs1.{prod_domain_name}/open-banking/v3.1/pisp/**
-
-- Confirmation of Funds API: https://rs1.{prod_domain_name}/open-banking/v3.1/cbpii/**
+- Payment Initiation Services API: https://rs1.{prod_domain_name}/open-banking/v3.1/pisp/**
 
 ## Test accounts
-If you require test accounts please contact mailto:contact@clear.bank
+If you require test accounts please contact customercare@clear.bank.

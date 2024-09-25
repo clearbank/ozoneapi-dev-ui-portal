@@ -20,11 +20,6 @@ These read/write APIs provide the ability for approved/authorised account inform
 
 These read/write APIs provide the ability for authorised payment initiation service providers (PISPs) to initiate domestic payments, setup new domestic scheduled payments & domestic standing orders, only when the PSU grants consent. This API is developed according to the Open Banking Read/Write API Specifications, see [https://www.openbanking.org.uk/](https://www.openbanking.org.uk/)
 
-#### Confirmation of Funds
-
-Ths read/write API allow a Card Based Payment Instrument Issuer ('CBPII') to make a request to confirm funds are available. This API is developed according to the Open Banking Read/Write API Specifications, see [https://www.openbanking.org.uk/](https://www.openbanking.org.uk/)
-
-
 ### What are the roles a TPP can perform?
 
 A TPP, Third Party Provider, can perform the following roles once they are registered with their National Competent Authority (NCA):
@@ -41,13 +36,13 @@ As a TPP, in order to access our Read/Write APIs, you need to be enrolled with O
 This will then enable you to access our APIs through the ClearBank Developer Portal
 
 ### As a Third Party Provider, is there somewhere I can test prototype Open Banking Solutions?
- Yes, ClearBank has a test facility [../40-sandbox.md](Sandbox) available through our Developer Portal. This will be made available in March 2019.
+ Yes, ClearBank has a test facility, [Sandbox](https://developer.sandbox.clrb.uk-hub-prod.ozoneapi.co.uk/en-gb/docs/40-sandbox.md), available through our Developer Portal. This will be made available in March 2019.
 
-Check out our [../20-getting-started.md](Get Started) guide for a step by step guide on how to start testing with our Sandbox APIs.
+Check out our [Get Started](https://developer.sandbox.clrb.uk-hub-prod.ozoneapi.co.uk/en-gb/docs/20-getting-started.md) guide for a step by step guide on how to start testing with our Sandbox APIs.
 
 
 ### Where are the specifications you have used to build your current APIs?
-There are full specifications provided by OBIE available on their [https://openbanking.atlassian.net/wiki/spaces/DZ/overview](Developer Zone) from which we’ve built our APIs.
+There are full specifications provided by OBIE available on their [Developer Zone](https://openbanking.atlassian.net/wiki/spaces/DZ/overview) from which we’ve built our APIs.
 
 ## Response Codes
 

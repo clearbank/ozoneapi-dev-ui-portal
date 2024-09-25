@@ -6,11 +6,11 @@ The following section outlines the requirements for passing a payment through Cl
 The base URL for all PIS APIs is: `https://rs1.openbanking.clearbankgb.com/open-banking/v3.1/pisp/**`
 
 ## Supported Payment Types
-ClearBank's Open Banking API powered by Ozone currently only supports
+ClearBank's Open Banking API powered by Ozone currently supports only the following endpoints:
 - Domestic Payments
-- Payment Detail Endpoints
+- Payment Details
 
-ClearBank's Open Banking API powered by Ozone **does not** support:
+ClearBank's Open Banking API powered by Ozone **does not** support the following endpoints:
 - International Payments
 - File & Bulk Payments
 - Domestic Scheduled Payments
@@ -20,10 +20,12 @@ ClearBank's Open Banking API powered by Ozone **does not** support:
 The following fields are mandatory for all domestic payment consents:
 
 ### `InstructedAmount/Amount`
-The ClearBank Open Banking API mandates no maximum amount in `InstructedAmount/Amount`. It is possible that a `domestic-payment-consents` is authorised, but the payment initiation fails due to account limits.
+The ClearBank Open Banking API mandates a maximum amount in `InstructedAmount/Amount`. As ClearBank will be processing your payments through Faster Payments (FPS), ClearBank mandates a maximum amount per payment of £1,000,000. ClearBank recommends that PISP notify the PSU of the limits applied on payments. 
+
+It is possible that a `domestic-payment-consents` is authorised, but the payment initiation fails due to account limits.
 
 ### `InstructedAmount/Currency`
-`InstructedAmount/Currency` must be `EUR` for EEA-based transactions. 
+`InstructedAmount/Currency` must be `GBP` for UK domestic transactions. 
 
 ### `RemittanceInformation/Reference`
 `RemittanceInformation/Reference` is a mandatory field and must adhere to the following:
@@ -41,50 +43,16 @@ The ClearBank Open Banking API mandates no maximum amount in `InstructedAmount/A
 The PISP may also opt to populate reference field on behalf of the PSU.
 
 ### `CreditorAccount`
-Domestic-payment-consents will only be authorised if the `CreditorAccount` details are sent or received. If a consent contains recipient info that does not meet this criteria then an error will be returned to the front end, the consent will remain in status `AwaitingAuthorisation` and the PSU will not be redirected.
+Domestic-payment-consents will only be authorised if the `CreditorAccount` details are sent or received. If a consent contains recipient information that does not meet this criteria then an error will be returned to the front end, the consent will remain in status `AwaitingAuthorisation` and the PSU will not be redirected.
 
 ### `Account.SchemeName`
-The only supported `Account.SchemeName` is `UK.OBIE.SortCodeAccountNumber` for both `DebtorAccount` and `CreditorAccount`. Any other enum provided will return error.
+The only supported `Account.SchemeName` is `UK.OBIE.SortCodeAccountNumber` for both `DebtorAccount` and `CreditorAccount`. Any other enum provided will return an error.
 
 ### `Structured Debtor Address`
-**TownName** (string, REQUIRED)
-- Description: Name of a built-up area, with defined boundaries, and a local government.
+- Description: The full postal address of the account holder. For UK addresses, the order of this information must be: country, town, city, state/province/municipality, street name, building number and/or name, postal code. 
 - Minimum length: 1
-- Maximum length: 35
-
-**Country** (string, REQUIRED)
-- Description: Nation with its own government.
-- Pattern: [A-Z]{2,2}
-  
-**PostCode** (string, REQUIRED)
-- Desciption: Identifier consisting of a group of letters and/or numbers that is added to a postal address to assist the sorting of mail.
-- Minimum length: 1
-- Maximum length: 16
-
-### `Debtor BIC`
-**Bic** (string, REQUIRED)
-- Description: Debitor’s Business Identifier Code (BIC).
-- Minimum length: 1
-
-### `Structured Creditor Address`
-**TownName** (string, REQUIRED)
-- Description: Name of a built-up area, with defined boundaries, and a local government.
-- Minimum length: 1
-- Maximum length: 35
-
-**Country** (string, REQUIRED)
-- Description: Nation with its own government.
-- Pattern: [A-Z]{2,2}
-  
-**PostCode** (string, REQUIRED)
-- Description: Identifier consisting of a group of letters and/or numbers that is added to a postal address to assist the sorting of mail.
-- Minimum length: 1
-- Maximum length: 16
-
-### `Creditor BIC` 
-**Bic** (string, REQUIRED)
-- Description: Creditor’s Business Identifier Code (BIC).
-- Minimum length: 1
+- Maximum length: 140
+- Pattern: ^[a-z;A-Z,0-9,|/.|-?:().,'+_]*$
 
 ## Payment dates
 Payments can be made on all days including Saturdays, Sundays and Bank Holidays.
