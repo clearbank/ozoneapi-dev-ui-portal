@@ -20,7 +20,7 @@ ClearBank's Open Banking API powered by Ozone **does not** support the following
 The following fields are mandatory for all domestic payment consents:
 
 ### `InstructedAmount/Amount`
-The ClearBank Open Banking API mandates a maximum amount in `InstructedAmount/Amount`. As CleearBank will be processing your payments through Faster Payments (FPS), ClearBank mandates a maximum amount per payment of £1,000,000. ClearBank recommends that PISP notify the PSU of the limits applied on payments. 
+The ClearBank Open Banking API mandates a maximum amount in `InstructedAmount/Amount`. As ClearBank will be processing your payments through Faster Payments (FPS), ClearBank mandates a maximum amount per payment of £1,000,000. ClearBank recommends that PISP notify the PSU of the limits applied on payments. 
 
 It is possible that a `domestic-payment-consents` is authorised, but the payment initiation fails due to account limits.
 
