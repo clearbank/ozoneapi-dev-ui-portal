@@ -17,7 +17,7 @@ Our ClearBank Sandbox powered by Ozone fully reflects the production environment
 
 To access the production environment, you must be a TPP authorised by the FCA or passported into the UK. Instructions for accessing our Production APIs are [here](https://developer.sandbox.clrb.uk-hub-prod.ozoneapi.co.uk/en-gb/docs/30-production.md).
 
-See our [Getting Started](https://developer.sandbox.clrb.uk-hub-prod.ozoneapi.co.uk/en-gb/docs/20-getting-started.md) page for instructions on accessing our sandbox and production APIs
+See our [Getting Started](https://developer.sandbox.clrb.uk-hub-prod.ozoneapi.co.uk/en-gb/docs/20-getting-started.md) page for instructions on accessing our sandbox and production APIs.
 
-If you require test accounts please contact customercare@clear.bank
+To contact us for help regarding integration, send us an email customercare@clear.bank. In the email subject line please start with 'Open Banking Issue'.
 
