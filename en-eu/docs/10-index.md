@@ -19,5 +19,5 @@ To access the production environment, you must be a TPP authorised by the FCA or
 
 See our [Getting Started](https://developer.sandbox.clrb.uk-hub-prod.ozoneapi.co.uk/en-eu/docs/20-getting-started.md) page for instructions on accessing our sandbox and production APIs
 
-If you require test accounts please contact customercare@clear.bank
+To contact us for help regarding integration, send us an email customercare@clear.bank. In the email subject line please start with 'Open Banking Issue'.
 
