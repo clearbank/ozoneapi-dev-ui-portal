@@ -15,4 +15,4 @@ Our production authorisation server uses the strict profile defined above and te
 - Payment Initiation Services API: https://rs1.{prod_domain_name}/open-banking/v3.1/pisp/**
 
 ## Test accounts
-If you require test accounts please contact customercare@clear.bank.
+To contact us for help regarding integration, send us an email customercare@clear.bank. In the email subject line please start with 'Open Banking Issue'.
