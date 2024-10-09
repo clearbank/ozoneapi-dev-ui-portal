@@ -4,9 +4,9 @@
 
 ### What is Open Banking?
 
-Open Banking is a reform, called for by the Competitions & Market Authority (CMA), which mandates Clear Bank  and the eight other largest current account providers (CMA9) to securely share customer account data and initiate payments with registered third party providers (TPPs) provided the customer has given their consent.
+Open Banking is a reform, called for by the European Union and often known as PSD2, which mandates ClearBank to securely share customer account data and initiate payments with registered third party providers (TPPs) provided the customer has given their consent.
 
-Please find more information at [Open Banking](https://www.openbanking.org.uk/)
+Please find more information at [Open Banking](https://ec.europa.eu/commission/presscorner/detail/de/qanda_23_3544)
 
 
 ### What are our Open Banking APIs?
@@ -14,15 +14,15 @@ Please find more information at [Open Banking](https://www.openbanking.org.uk/)
 These Open Data APIs allow API providers (e.g. banks, building societies and ATM providers) to develop API endpoints for products, branches and ATMs data which can then be accessed by anyone.
 
 #### Account & Transactions
-These read/write APIs provide the ability for approved/authorised account information service providers (AISPs) to access a customer’s (payment service user, PSU) account and transaction information for domestic business current accounts (BCAs) and personal current accounts (PCAs), only when the PSU grants consent. This API is developed according to the Open Banking Read/Write API Specifications, see [https://www.openbanking.org.uk/](https://www.openbanking.org.uk/)
+These read/write APIs provide the ability for approved/authorised account information service providers (AISPs) to access a customer’s (payment service user, PSU) account and transaction information for domestic business current accounts (BCAs) and personal current accounts (PCAs), only when the PSU grants consent. This API is developed according to the Open Banking Read/Write [API Specifications](https://www.eba.europa.eu/guidelines-authorisation-and-registration-under-psd2) from the EBA. 
 
 ### Payment Initiation
 
-These read/write APIs provide the ability for authorised payment initiation service providers (PISPs) to initiate domestic payments, setup new domestic scheduled payments & domestic standing orders, only when the PSU grants consent. This API is developed according to the Open Banking Read/Write API Specifications, see [https://www.openbanking.org.uk/](https://www.openbanking.org.uk/)
+These read/write APIs provide the ability for authorised payment initiation service providers (PISPs) to initiate domestic payments, setup new domestic scheduled payments & domestic standing orders, only when the PSU grants consent. This API is developed according to the Open Banking Read/Write [API Specifications](https://www.eba.europa.eu/guidelines-authorisation-and-registration-under-psd2) from the EBA. 
 
 #### Confirmation of Funds
 
-Ths read/write API allow a Card Based Payment Instrument Issuer ('CBPII') to make a request to confirm funds are available. This API is developed according to the Open Banking Read/Write API Specifications, see [https://www.openbanking.org.uk/](https://www.openbanking.org.uk/)
+Ths read/write API allow a Card Based Payment Instrument Issuer ('CBPII') to make a request to confirm funds are available. This API is developed according to the Open Banking Read/Write [API Specifications](https://www.eba.europa.eu/guidelines-authorisation-and-registration-under-psd2) from the EBA. 
 
 
 ### What are the roles a TPP can perform?
@@ -35,24 +35,23 @@ A TPP, Third Party Provider, can perform the following roles once they are regis
 
 ## Read/Write APIs
 
-### How can I access Clear Bank  Read/Write APIs?
-As a TPP, in order to access our Read/Write APIs, you need to be enrolled with Open Banking (Enrolling Onto Open Banking Guide) and registered with the Financial Conduct Authority (FCA) or a National Competent Authority (NCA), as either an AISP and/or PISP, TSP or CBPII.
+### How can I access ClearBank  Read/Write APIs?
+As a TPP, in order to access our Read/Write APIs, you need to be registered with a National Competent Authority (NCA), as either an AISP and/or PISP, TSP or CBPII.
 
-This will then enable you to access our APIs through the Clear Bank  Developer Portal
+This will then enable you to access our APIs through the ClearBank Developer Portal
 
 ### As a Third Party Provider, is there somewhere I can test prototype Open Banking Solutions?
- Yes, Clear Bank  has a test facility [../40-sandbox.md](Sandbox) available through our Developer Portal. This will be made available in March 2019.
+Yes, ClearBank has a test facility, [Sandbox](https://developer.sandbox.clrb.uk-hub-prod.ozoneapi.co.uk/en-eu/docs/40-sandbox.md), available through our Developer Portal. This will be made available in March 2019.
 
-Check out our [../20-getting-started.md](Get Started) guide for a step by step guide on how to start testing with our Sandbox APIs.
-
+Check out our [Get Started](https://developer.sandbox.clrb.uk-hub-prod.ozoneapi.co.uk/en-eu/docs/20-getting-started.md) guide for a step by step guide on how to start testing with our Sandbox APIs.
 
 ### Where are the specifications you have used to build your current APIs?
-There are full specifications provided by OBIE available on their [https://openbanking.atlassian.net/wiki/spaces/DZ/overview](Developer Zone) from which we’ve built our APIs.
+There are full specifications provided by OBIE available on their [Developer Zone](https://openbanking.atlassian.net/wiki/spaces/DZ/overview) from which we’ve built our APIs.
 
 ## Response Codes
 
 ### I am getting a 401 unauthorized response when invoking /token endpoints
-(1) Make sure you have registered your SSA in Clear Bank  Developer Portal and the subscription of the Accounts Service Provider API and/or Payments Service Provider API is approved by Clear Bank 
+(1) Make sure you have registered your SSA in ClearBank Developer Portal and the subscription of the Accounts Service Provider API and/or Payments Service Provider API is approved by ClearBank 
 
 (2) Make sure you are following client_secret_post for the OIDC calls
 

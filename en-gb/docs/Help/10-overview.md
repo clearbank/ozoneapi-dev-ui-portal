@@ -36,12 +36,6 @@ The Open Banking Directory is the canonical list of providers who are authorised
 Directory Sandbox
 The Open Banking Directory Sandbox provides a test instance of the real directory so that providers can test their implementations before going live. You’ll need to registered with the Open Banking Directory Sandbox in order to use the Clear Bank  API sandbox.
 
-### EBA
-The European Banking Authority sets the technical standards for Open Banking.
-
-### EBA RTS
-The technical standards set for Open Banking (and PSD2 in general) by the European Banking Authority are called the Regulatory Technical Standards.
-
 ### FCA
 The Financial Conduct Authority is the UK regulatory responsible for authorising participants in Open Banking. It is the UK’s Competent Authority.
 
@@ -51,7 +45,7 @@ FCA Service Metrics is an Open Banking API, offered by {bank name} and other Ope
 ### KYC
 Regulations designed to prevent money laundering require that financial institutions can prove the identity of their customers. Know Your Customer is the process of verifying the customer’s identity and evaluating potential risk for illegal activity.
 
-### OBIE
+### OBL
 Open Banking Limited is the Open Banking Implementation Entity and it has been tasked with overseeing the delivery of Open Banking in the UK.
 
 ### Open Banking
@@ -62,9 +56,6 @@ Under Open Banking, the Mandatory ASPs, such as {bank name}, must provide certai
 
 ### Payment gateway
 A payment gateway is an intermediary between a merchant services provider –– that facilitates the processing of payment cards –– and ecommerce software.
-
-### PSD2
-The second edition of the European Union’s Payment Services Directive sets the framework for Open Banking and similar implementations across the EU.
 
 ### PISP
 A Payment Initiation Services Provider is a service that uses Open Banking APIs to make a payment from a person’s bank account held at another institution, at their request.

@@ -2,7 +2,7 @@
 
 ## Dynamic Client Registration
 
-ClearBank’s API powered by Ozone allows dynamic client registration in order to create a valid client that is able to use our Authorisation Server. We only trust Software Statement Assertions (SSAs) issued by the Open Banking Directory provided by OBIE. eIDAS certificates are supported via onboarding to the Open Banking Directory (as discussed in more detail below).
+ClearBank, powered by Ozone, uses DCR to record new TPP onboardings and to allow access to our Authorisation Server. We require onboarding TPPs to use Software Statement Assertions (SSAs) issued by the Open Banking Directory provided by OBIE. We won't allow access to our services in the UK if your Software Statement Assertion was issued by another certification entity. eIDAS certificates are supported via onboarding to the Open Banking Directory (as discussed in more detail below).
 
 The url of the registration endpoint is advertised on the OIDC Discovery Endpoints (see below) using the registration_endpoint claim. The `aud` claim used in the outer JWT of a Dynamic Client Registration request is the OBIE issued  `org_id` (as documented in the OBIE DCR v3.1 standard)
 
