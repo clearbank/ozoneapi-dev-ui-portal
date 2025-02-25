@@ -47,14 +47,6 @@
       {
         "title": "Payment Initiation API",
         "href": "swagger/payment-initiation-openapi.yaml"
-      },
-      {
-        "title": "Confirmation of Funds API Specification",
-        "href": "swagger/confirmation-funds-openapi.yaml"
-      },
-      {
-        "title": "Events API Specification - ASPSP Endpoints",
-        "href": "swagger/events-openapi.yaml"
       }
     ]
   },
