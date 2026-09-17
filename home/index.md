@@ -21,5 +21,7 @@ You can find out more about Open Banking here: [What is Open Banking](https://ww
 - [Planned Updates](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/50-planned-updates.md)
 - [AISP API Overview](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/API%20Overview/ais.md)
 - [PISP API Overview](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/API%20Overview/pis.md)
+- [CBPII API Overview](/perry/developer/documentation?resource=ukhub-clrb-portal&document=docs/API%20Overview/cbpii.md)
 - [Account and Transaction API Specification](/perry/developer/documentation?resource=ukhub-clrb-portal&document=swagger/account-info-openapi.yaml)
 - [Payment Initiation Services API Specification](/perry/developer/documentation?resource=ukhub-clrb-portal&document=swagger/payment-initiation-openapi.yaml)
+- [Card Based Payment Instrument Issuer API Specification](/perry/developer/documentation?resource=ukhub-clrb-portal&document=swagger/confirmation-funds-openapi.yaml)
